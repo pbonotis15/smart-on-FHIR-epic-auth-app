@@ -112,9 +112,16 @@
           <ObservationViewer accessToken={tokenResponse.access_token} patientId={tokenResponse.patient} />
           <ObservationViewer title="Vital Signs" category='vital-signs' accessToken={tokenResponse.access_token} patientId={tokenResponse.patient} />
       {:else}
-          <div class="flex justify-center my-20">
-              <button on:click={initiateAuthorizationRequest} class="p-3 bg-black rounded-md text-white">Sign in with Epic</button>
-          </div>
+      <h1 class="flex justify-center my-20 text-2xl"><strong>Sign in using the below credentials with the EPIC system</strong></h1>
+      <div class="flex justify-center">
+        <p> <strong>Username:</strong> fhircamila</p>
+      </div> 
+      <div class="flex justify-center">
+        <p> <strong>Password:</strong> epicepic1</p>
+    </div>  
+    <div class="flex justify-center my-20">
+        <button on:click={initiateAuthorizationRequest} class="p-3 bg-black rounded-md text-white">Sign in with Epic</button>
+    </div>
       {/if}
   {/if}
 </main>
