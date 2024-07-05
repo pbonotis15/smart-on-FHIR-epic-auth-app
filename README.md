@@ -1,7 +1,7 @@
 # Svelte FHIR App authenticating and connecting to EPIC
 
 ## Description
-This Svelte application integrates with FHIR and SMART on FHIR to provide an interface for viewing patient details, medication requests, and lab results. The app handles OAuth2 authorization flow and interacts with the FHIR server to fetch and display data. Followed the tutorial of Sidharth Ramesh of MedBlocks
+This Svelte application integrates with FHIR and SMART on FHIR to provide an interface for viewing patient details, medication requests, and lab results. The app handles OAuth2 authorization flow and interacts with the FHIR server to fetch and display data. Credits to Sidharth Ramesh of MedBlocks
 
 ## File Descriptions
 
